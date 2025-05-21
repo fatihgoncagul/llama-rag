@@ -1,0 +1,21 @@
+# Python derleme dosyaları
+__pycache__/
+*.py[cod]
+
+# Sanal ortam
+venv/
+.env/
+.venv/
+
+# Chroma DB dosyaları
+chroma_langchain_db/
+*.sqlite3
+*.bin
+*.lock
+
+# Veri dosyaları
+*.json
+*.log
+
+# VSCode
+.vscode/
